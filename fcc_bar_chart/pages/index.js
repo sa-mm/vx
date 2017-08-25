@@ -4,6 +4,7 @@ const Index = () => {
   return (
     <div>
       <p>Hello?</p>
+      <p>U.S. GDP</p>
       <BarChart />
     </div>
   )
