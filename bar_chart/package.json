@@ -1,0 +1,26 @@
+{
+  "name": "bar_chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vx/group": "0.0.136",
+    "@vx/mock-data": "0.0.136",
+    "@vx/scale": "0.0.136",
+    "@vx/shape": "0.0.136",
+    "next": "^3.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@vx/axis": "0.0.136"
+  }
+}
