@@ -5,6 +5,7 @@ import { AreaClosed } from '@vx/shape'
 import { scaleLinear, scaleTime } from '@vx/scale'
 import { AxisBottom, AxisLeft } from '@vx/axis'
 import { LinearGradient } from '@vx/gradient'
+import { ScaleSVG } from '@vx/responsive'
 
 const width = 800
 const height = 400
@@ -51,7 +52,7 @@ const x = d => d[0] // d.date is unix timestamps
 const y = d => d[1]
 
 const chart = (
-  <svg width={width} height={height}>
+  <ScaleSVG width={width} height={height}>
     <Group top={margin.top} left={margin.left}>
       <LinearGradient
         from='#fbc2eb'
@@ -87,7 +88,7 @@ const chart = (
       />
 
     </Group>
-  </svg>
+  </ScaleSVG>
 )
 
 function AreaChart () {
