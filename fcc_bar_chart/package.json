@@ -7,10 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "surge ./out --domain='sassy-sponge.surge.sh'"
   },
   "dependencies": {
     "@vx/axis": "0.0.136",
+    "@vx/gradient": "0.0.136",
     "@vx/group": "0.0.136",
     "@vx/mock-data": "0.0.136",
     "@vx/scale": "0.0.136",
