@@ -57,7 +57,17 @@ const chart = (
         from='#fbc2eb'
         to='#a6c1ee'
         id='gradient'
-/>
+      />
+
+      <AreaClosed
+        data={mungedData}
+        xScale={xScale}
+        yScale={yScale}
+        x={x}
+        y={y}
+        fill={'url(#gradient)'}
+        stroke={''}
+      />
 
       <AxisLeft
         scale={yScale}
@@ -74,16 +84,6 @@ const chart = (
         label={'Years'}
         stroke={'#1b1a1e'}
         tickTextFill={'#1b1a1e'}
-      />
-
-      <AreaClosed
-        data={mungedData}
-        xScale={xScale}
-        yScale={yScale}
-        x={x}
-        y={y}
-        fill={'url(#gradient)'}
-        stroke={''}
       />
 
     </Group>
