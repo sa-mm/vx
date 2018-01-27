@@ -95,4 +95,13 @@ function AreaChart () {
   return chart
 }
 
+// const ResponsiveAreaChart = withParentSize(({ parentWidth, children, ...rest }) => (
+//   <AreaChart
+//     width={parentWidth}
+//     height={parentHeight}
+//   >
+//     {children}
+//   </AreaChart>
+// ));
+
 export default AreaChart
